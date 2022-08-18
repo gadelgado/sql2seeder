@@ -1,0 +1,19 @@
+{
+    "name": "gadelgado/sql2seeder",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gadelgado\\Sql2seeder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gadelgado",
+            "email": "contacto@alexdelgado.com.mx"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
