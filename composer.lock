@@ -4,23 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36bfec8e566c3546be569feeb151a8f0",
+    "content-hash": "576977452102370b1fcd2d6aa05fd3ec",
     "packages": [
         {
             "name": "gadelgado/singularizer",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gadelgado/php-singularizer.git",
-                "reference": "c6f3486dd5cbc69a47e4c7020b8585bb98e2c7cc"
+                "reference": "6ce41e64e791531782bca0443656ab0fd4c8b9d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gadelgado/php-singularizer/zipball/c6f3486dd5cbc69a47e4c7020b8585bb98e2c7cc",
-                "reference": "c6f3486dd5cbc69a47e4c7020b8585bb98e2c7cc",
+                "url": "https://api.github.com/repos/gadelgado/php-singularizer/zipball/6ce41e64e791531782bca0443656ab0fd4c8b9d5",
+                "reference": "6ce41e64e791531782bca0443656ab0fd4c8b9d5",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -40,9 +39,9 @@
             "description": "PHP Library to convert english words from plural to singular",
             "support": {
                 "issues": "https://github.com/gadelgado/php-singularizer/issues",
-                "source": "https://github.com/gadelgado/php-singularizer/tree/master"
+                "source": "https://github.com/gadelgado/php-singularizer/tree/v1.0.0"
             },
-            "time": "2022-08-18T22:22:15+00:00"
+            "time": "2022-08-22T16:45:06+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -648,9 +647,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "gadelgado/singularizer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
