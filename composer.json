@@ -1,12 +1,14 @@
 {
     "name": "gadelgado/sql2seeder",
+    "description": "A command line utility to transform sql files into database seeders",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gadelgado\\Sql2seeder\\": "src/"
+            "Gadelgado\\Sql2Seeder\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "gadelgado",
@@ -14,6 +16,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^7.0.1",
+        "gadelgado/singularizer": "dev-master"
     }
 }

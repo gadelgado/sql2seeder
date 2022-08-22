@@ -2,10 +2,10 @@
 
 namespace Gadelgado\Sql2seeder\Providers;
 
-use Gadelgado\Sql2seeder\Commands\TestCommand;
+use Gadelgado\Sql2Seeder\Commands\Sql2SeederCommand;
 use Illuminate\Support\ServiceProvider;
 
-class Sql2seederProvider extends ServiceProvider
+class Sql2SeederProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
@@ -17,7 +17,7 @@ class Sql2seederProvider extends ServiceProvider
         // $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         if ($this->app->runningInConsole()) {
             $this->commands([
-                TestCommand::class,
+                Sql2SeederCommand::class,
             ]);
         }
     }
