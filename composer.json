@@ -16,7 +16,6 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.0.1",
         "gadelgado/singularizer": "^1.0"
     }
 }
